@@ -1,12 +1,12 @@
 /** Development Web Server Configurations */
-var express = require('express');
-var path = require('path');
-var open = require('open');
+import express from 'express';
+import path from 'path';
+import open from 'open';
 
 // The port that the webserver will listen
-var port = 3000;
+const port = 3000;
 // Create an instance of express
-var app = express();
+const app = express();
 
 // Set up the routes that express will handle
 app.get('/', function(request, response) {
